@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Pandits - Braj Sanga</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🕉️ Braj Sanga</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bookings.html">Book Pandits</a></li>
+        <li><a href="poojas.html">Pooja List</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Book Pandits</h2>
+    <form id="bookingForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required />
+
+      <label for="eventDate">Event Date:</label>
+      <input type="date" id="eventDate" required />
+
+      <label for="panditCount">Number of Pandits (Max 50):</label>
+      <input type="number" id="panditCount" min="1" max="50" required />
+
+      <label for="poojaType">Select Pooja Type:</label>
+      <select id="poojaType">
+        <option>Ganesh Pooja</option>
+        <option>Satyanarayan Katha</option>
+        <option>Navgraha Shanti</option>
+        <option>Rudra Abhishek</option>
+      </select>
+
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Braj Sanga. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

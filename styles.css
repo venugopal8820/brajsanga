@@ -1,0 +1,141 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #fff8f0;
+    color: #4a2c2a;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #ffe6cc;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b3541e;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #804000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #d35400;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url(devotional.jpeg);
+    background-size: cover;
+     background-position : center;
+    background-repeat: no-repeat;
+
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #b3541e;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #993300;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fffdf7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fffaf2;
+  }
+  
+  form button {
+    margin-top: 20px;
+  }
+  
+  table.pooja-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fffdf7;
+  }
+  
+  table.pooja-table th,
+  table.pooja-table td {
+    border: 1px solid #d8b899;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table.pooja-table th {
+    background-color: #f3e2c7;
+    color: #4a2c2a;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6cc;
+    margin-top: 40px;
+  }
+  
